@@ -1,6 +1,9 @@
 syntax = "proto3";
 
 package heartbeat_pb;
+
+import "google/api/annotations.proto";
+
 option go_package="/heartbeat_pb";
 
 message HeartBeat {
@@ -41,7 +44,12 @@ message NormalAbnormalHeartBeatResponse {
 }
 
 service HeartBeatService {
-    rpc UserHeartBeat(HeartBeatRequest) returns (HeartBeatResponse) {};
+    rpc UserHeartBeat(HeartBeatRequest) returns (HeartBeatResponse) {
+        option (google.api.http) = {
+            post: "/v1/test"
+            body: "*"
+        };
+    };
     rpc LiveHeartBeat(stream LiveHeartBeatRequest) returns (LiveHeartBeatResponse) {};
     rpc HeartBeatHistory(HeartBeatHistoryRequest) returns (stream HeartBeatHistoryResponse) {};
     rpc NormalAbnormalHeartBeat(stream NormalAbnormalHeartBeatRequest) returns (stream NormalAbnormalHeartBeatResponse) {};

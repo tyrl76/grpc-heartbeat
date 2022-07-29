@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# ����ũ ����Ÿ���̽�, Sun Jun 19 04:14:52 2022
+# ����ũ ����Ÿ���̽�, Fri Jul 29 23:33:01 2022
 �� ǥ��
 # ����
 
@@ -18,8 +18,6 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 ?F = $(notdir $?)
 # ����ũ����
 MAKEFLAGS = Rrqp
-# ȯ��
-VSCODE_LOG_NATIVE = false
 # �ڵ�
 ?D = $(patsubst %/,%,$(dir $?))
 # �ڵ�
@@ -37,7 +35,8 @@ SHELL := sh.exe
 # ȯ��
 WINDIR = C:\WINDOWS
 # ȯ��
-VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"26f3b44ea4f1e942cca002e9545643cc.ko","_translationsConfigFile":"C:\\Users\\eett0\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\tcf.json","_cacheRoot":"C:\\Users\\eett0\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko","_resolvedLanguagePackCoreLocation":"C:\\Users\\eett0\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\eett0\\AppData\\Roaming\\Code\\clp\\26f3b44ea4f1e942cca002e9545643cc.ko\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"2dff5cff996ed6cbe8d8aa8740f86aa0.ko","_translationsConfigFile":"C:\\Users\\eett0\\AppData\\Roaming\\Code\\clp\\2dff5cff996ed6cbe8d8aa8740f86aa0.ko\\tcf.json","_cacheRoot":"C:\\Users\\eett0\\AppData\\Roaming\\Code\\clp\\2dff5cff996ed6cbe8d8aa8740f86aa0.ko","_resolvedLanguagePackCoreLocation":"C:\\Users\\eett0\\AppData\\Roaming\\Code\\clp\\2dff5cff996ed6cbe8d8aa8740f86aa0.ko\\3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"C:\\Users\\eett0\\AppData\\Roaming\\Code\\clp\\2dff5cff996ed6cbe 
+8d8aa8740f86aa0.ko\\corrupted.info","_languagePackSupport":true}
 # ȯ��
 ONEDRIVE = C:\Users\eett0\OneDrive
 # ȯ��
@@ -45,25 +44,22 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # ����ũ���� (from `makefile', line 1)
 MAKEFILE_LIST :=  makefile
 # ȯ��
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# ȯ��
 TMP = C:\Users\eett0\AppData\Local\Temp
 # ȯ��
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# ȯ��
-VSCODE_VERBOSE_LOGGING = true
 # ȯ��
 PROGRAMW6432 = C:\Program Files
 # ȯ��
 PROGRAMDATA = C:\ProgramData
 # ȯ��
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d0ba6c03-d92b-40e1-9051-b1fb43dc91d7-sock
-# ȯ��
-VSCODE_CWD = C:\Users\eett0\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\WINDOWS\System32
 # ȯ��
 GOPROXY = https://proxy.golang.org,direct
 # ȯ��
-PATH = C:\Program Files\Go\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\eett0\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\eett0\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\eett0\AppData\Local\Microsoft\WindowsApps;C:\Users\eett0\AppData\Local\afreeca;C:\Users\eett0\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\eett0\go\bin;C:\Users\eett0\protoc\bin;C:\Users\eett0\Desktop\grpcurl\grpcurl_1.8.1_windows_x86_64;
-# ȯ 
-��
+PATH = C:\Program Files\Go\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\eett0\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\eett0\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\eett0\AppData\Local\Microsoft\WindowsApps;C:\Users\eett0\AppData\Local\afreeca;C:\Users\eett0\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\eett0\go\bin;C:\Users\eett0\protoc\bin;C:\Users\eett0\Desktop\grpcurl\grpcurl_1.8.1_windows_x86_64;
+# ȯ��
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # ȯ��
 PROCESSOR_ARCHITECTURE = x86
@@ -74,8 +70,6 @@ ALLUSERSPROFILE = C:\ProgramData
 # ȯ��
 GOPATH = C:\Users\eett0\go
 # ȯ��
-VSCODE_LOG_STACK = false
-# ȯ��
 NUMBER_OF_PROCESSORS = 16
 # ȯ��
 ELECTRON_RUN_AS_NODE = 1
@@ -84,9 +78,7 @@ ELECTRON_RUN_AS_NODE = 1
 # �ڵ�
 %F = $(notdir $%)
 # ȯ��
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13340_ZLXMDMCIODLXPCJK
-# ȯ��
-VSCODE_PIPE_LOGGING = true
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11216_NLZDYHTXHOZKYYVH
 # ȯ��
 COMPUTERNAME = DESKTOP-92S6UV3
 # ȯ��
@@ -102,9 +94,9 @@ PUBLIC = C:\Users\Public
 # ȯ��
 GOMODCACHE = C:\Users\eett0\go\pkg\mod
 # ȯ��
-VSCODE_CODE_CACHE_PATH = C:\Users\eett0\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\eett0\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # ȯ��
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # ȯ��
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # ȯ��
@@ -148,7 +140,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
 # ȯ��
 OS = Windows_NT
 # ȯ��
-VSCODE_IPC_HOOK = \\.\pipe\fdf0f02acbb8a02409a506cf5cfc8894-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\fdf0f02acbb8a02409a506cf5cfc8894-1.69.2-main-sock
 # ȯ��
 HOMEPATH = \Users\eett0
 # ȯ��
@@ -194,11 +186,13 @@ LANG = C
 # ȯ��
 PROCESSOR_LEVEL = 25
 # ȯ��
-VSCODE_PID = 13340
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# ȯ��
+VSCODE_PID = 11216
 # ȯ��
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-92S6UV3
 # variable set hash-table stats:
-# Load=92/1024=9%, Rehash=0, Collisions=10/112=9%
+# Load=89/1024=9%, Rehash=0, Collisions=10/109=9%
 
 # Pattern-specific Variable Values
 
@@ -207,29 +201,30 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-92S6UV3
 # ���丮
 
 # C:\Program Files\Java\jdk-11.0.14\bin (Ű C:/Program Files/Java/jdk-11.0.14/bin, ����ð� 1643638755): 124 ����, 0�� �Ұ���.
-# C:\Program Files\Common Files\Oracle\Java\javapath (Ű C:/Program Files/Common Files/Oracle/Java/javapath, ����ð� 1643638756): 6 ����, 0�� �Ұ���.
+# C:\Program Files\Common Files\Oracle\Java\javapath (Ű C:/Program Files/Common Files/Oracle/Java/javapath, ����ð� 1657374234): 6 ����, 0�� �Ұ���.
 # C:\Program Files\Go\bin (Ű C:/Program Files/Go/bin, ����ð� 1642177538): 4 ����, 0�� �Ұ���.
 # C:\Users\eett0\AppData\Local\Programs\Python\Python310\ (Ű C:/Users/eett0/AppData/Local/Programs/Python/Python310/, ����ð� 1654066262): 19 ����, 0�� �Ұ���.
 # C:\Users\eett0\AppData\Local\Programs\Python\Python310\Scripts\ (Ű C:/Users/eett0/AppData/Local/Programs/Python/Python310/Scripts/, ����ð� 1654066263): 28 ����, 0�� �Ұ���.
 # C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (Ű C:/WINDOWS/System32/WindowsPowerShell/v1.0/, ����ð� 1650374800): 32 ����, 0�� �Ұ���.
-# C:\Users\eett0\AppData\Local\Programs\Microsoft VS Code\bin (Ű C:/Users/eett0/AppData/Local/Programs/Microsoft VS Code/bin, ����ð� 1655520275): 4 ����, 0�� �Ұ���.
+# C:\Users\eett0\AppData\Local\Programs\Microsoft VS Code\bin (Ű C:/Users/eett0/AppData/Local/Programs/Microsoft VS Code/bin, ����ð� 1658322173): 4 ����, 0�� �Ұ���.
 # C:\WINDOWS\System32\Wbem (Ű C:/WINDOWS/System32/Wbem, ����ð� 1655474725): 172 ����, 0�� �Ұ���.
-# . (Ű c:/Users/eett0/go/src/heartbeat, ����ð� 1655578675): 9 ����, 0�� �Ұ���.
+# . (Ű c:/Users/eett0/go/src/heartbeat, ����ð� 1658764733): 11 ����, 0�� �Ұ���.
 # C:\Users\eett0\protoc\bin (Ű C:/Users/eett0/protoc/bin, ����ð� 1655026794): 3 ����, 0�� �Ұ���.
 # C:\Users\eett0\AppData\Local\afreeca (Ű C:/Users/eett0/AppData/Local/afreeca, ����ð� 1638540353): 23 ����, 0�� �Ұ���.
 # C:\Program Files\MySQL\MySQL Shell 8.0\bin\ (Ű C:/Program Files/MySQL/MySQL Shell 8.0/bin/, ����ð� 1633948613): 7 ����, 0�� �Ұ���.
 # C:\WINDOWS\System32\OpenSSH\: stat�� �� �� �������ϴ�.
 # C:\Program Files\PuTTY\ (Ű C:/Program Files/PuTTY/, ����ð� 1638196083): 12 ����, 0�� �Ұ���.
-# C:\Users\eett0\AppData\Local\Microsoft\WindowsApps (Ű C:/Users/eett0/AppData/Local/Microsoft/WindowsApps, ����ð� 1654598815): 26 ����, 0�� �Ұ���.
-# C:\WINDOWS (Ű C:/WINDOWS, ����ð� 1655474774): 146 ����, 0�� �Ұ���.
-# C:\Users\eett0\go\bin (Ű C:/Users/eett0/go/bin, ����ð� 1655565376): 25 ����, 0�� �Ұ���.
+# C:\Users\eett0\AppData\Local\Microsoft\WindowsApps (Ű C:/Users/eett0/AppData/Local/Microsoft/WindowsApps, ����ð� 1658538268): 26 ����, 0�� �Ұ���.
+# C:\WINDOWS (Ű C:/WINDOWS, ����ð� 1657808325): 146 ����, 0�� �Ұ���.
+# C:\Users\eett0\go\bin (Ű C:/Users/eett0/go/bin, ����ð� 1658760899): 29 ����, 0�� �Ұ���.
 # C:\Program Files\Git\cmd (Ű C:/Program Files/Git/cmd, ����ð� 1642177899): 8 ����, 0�� �Ұ���.
-# C:\WINDOWS\system32 (Ű C:/WINDOWS/system32, ����ð� 1655479461): 2953 ����, 0�� �Ұ���.
+# C:\WINDOWS\system32 (Ű C:/WINDOWS/system32, ����ð� 1658989946): 2953 ����, 0�� �Ұ���.
 # C:\Users\eett0\Desktop\grpcurl\grpcurl_1.8.1_windows_x86_64 (Ű C:/Users/eett0/Desktop/grpcurl/grpcurl_1.8.1_windows_x86_64, ����ð� 1655555578): 4 ����, 0�� �Ұ���.
 # C:\Program Files\MongoDB\Server\5.0\bin (Ű C:/Program Files/MongoDB/Server/5.0/bin, ����ð� 1655579578): 9 ����, 0�� �Ұ���.
+# C:\Program Files\Java\jdk-18.0.1.1\bin (Ű C:/Program Files/Java/jdk-18.0.1.1/bin, ����ð� 1657374233): 124 ����, 0�� �Ұ���.
 # C:\Program Files (x86)\GnuWin32\bin (Ű C:/Program Files (x86)/GnuWin32/bin, ����ð� 1655021836): 5 ����, 0�� �Ұ���.
 
-# 3619 ����, 0�� impossibilities in 22 directories.
+# 3749 ����, 0�� impossibilities in 23 directories.
 
 # Implicit Rules
 
@@ -252,7 +247,7 @@ protos:
 #  ������ �������� �ʽ��ϴ�.
 #  ������ ���ŵ��� �ʾҽ��ϴ�.
 #  ������ ���ɾ� (`makefile'����, 4��° ��):
-	protoc -I heartbeat_pb/ --go_out=. --go-grpc_out=. heartbeat_pb/heartbeat.proto
+	protoc -I heartbeat_pb/ --go_out=. --go-grpc_out=. --grpc-gateway_out=. heartbeat_pb/heartbeat.proto
 	
 
 .PHONY: protos
@@ -269,7 +264,7 @@ protos:
 # Ÿ���� �ƴ�:
 makefile:
 #  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
-#  ������ ���� 2022-06-19 03:22:49
+#  ������ ���� 2022-07-26 00:20:53
 #  ������ ���ŵǾ����ϴ�.
 #  ���������� ���ŵ�.
 # variable set hash-table stats:
@@ -294,7 +289,7 @@ makefile:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# ����ũ ����Ÿ ���̽� ��ħ, Sun Jun 19 04:14:52 2022
+# ����ũ ����Ÿ ���̽� ��ħ, Fri Jul 29 23:33:01 2022
 ����
  
 make.exe: *** Ÿ�� `all'�� ���� ��Ģ�� ����.  ����.

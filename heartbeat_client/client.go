@@ -109,8 +109,8 @@ func main() {
 
 	c := heartbeat_pb.NewHeartBeatServiceClient(conn)
 
-	// UserHeartBeat(c)
+	UserHeartBeat(c)
 	// LiveHeartBeat(c)
 	// HeartBeatHistory(c)
-	NormalAbnormalHeartBeat(c)
+	// NormalAbnormalHeartBeat(c)
 }

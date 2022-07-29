@@ -14,7 +14,6 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
 	"google.golang.org/grpc"
 )
 
@@ -113,12 +112,12 @@ func (*server) UserHeartBeat(ctx context.Context, req *heartbeat_pb.HeartBeatReq
 	bpm := req.GetHeartbeat().GetBpm()
 	username := req.GetHeartbeat().GetUsername()
 
-	newHeartItem := heart_item{
-		Bpm:      bpm,
-		Username: username,
-	}
-	docid := pushUserToDb(ctx, newHeartItem)
-	result := fmt.Sprintf("User HeartBeat is %v, newly created docid is %v", bpm, docid)
+	// newHeartItem := heart_item{
+	// 	Bpm:      bpm,
+	// 	Username: username,
+	// }
+	// docid := pushUserToDb(ctx, newHeartItem)
+	result := fmt.Sprintf("User HeartBeat is %v, newly created docid is %v", bpm, username)
 
 	heartBeatResponse := heartbeat_pb.HeartBeatResponse{
 		Result: result,
@@ -145,24 +144,24 @@ func main() {
 		}
 	}()
 
-	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://localhost:27017"))
-	handleError(err)
-	fmt.Println("MongoDB connected")
+	// client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://localhost:27017"))
+	// handleError(err)
+	// fmt.Println("MongoDB connected")
 
-	err = client.Connect(context.TODO())
-	handleError(err)
+	// err = client.Connect(context.TODO())
+	// handleError(err)
 
-	collection = client.Database("heartbeat").Collection("heartbeat")
+	// collection = client.Database("heartbeat").Collection("heartbeat")
 
 	ch := make(chan os.Signal, 1)
 	signal.Notify(ch, os.Interrupt)
 
 	<-ch
 
-	fmt.Println("Closing Mongo Connection")
-	if err := client.Disconnect(context.TODO()); err != nil {
-		handleError(err)
-	}
+	// fmt.Println("Closing Mongo Connection")
+	// if err := client.Disconnect(context.TODO()); err != nil {
+	// 	handleError(err)
+	// }
 
 	s.Stop()
 }
